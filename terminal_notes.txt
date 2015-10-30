@@ -1,0 +1,93 @@
+~ tilde
+$normal user
+# root user (administrator)
+pwd shows name of current working directory
+ls list directory content
+ls - a shows everything in directory
+ls -la shows full long list
+cat concatenate files and display
+head & tail display beginning or end of file
+less page through contents of a file
+     enter forward a line
+     space next page
+     f forward one page
+    b backwards
+     q for quit
+
+find search for files in a directory hierarchy
+lists relative path and filename
+ grep displays lines matching a pattern text
+text regular expressions
+
+| pipe send output from one command into another
+sudo programs with privileges of another user
+su - use shell of another user
+do - take action
+
+shutdown
+brings system down
+option -h to halt
+requires timeframe
+now
+
+nano -- easy text editor
+zip,unzip  -- compress and decompress files
+wget, curl — download files
+man-db  --program manual
+acpid  — shutdown event
+
+getent
+queries linux administrative databases
+
+usermod —modifies a user account / requires sudo
+
+sudoedit —edit file as root /doesent edit file directly - creates copt in /tmp
+upon exit file overwrites original
+
+a2ensite —enable apache2 site
+a2dissite —disable apache2 site
+ -creates / removes symbolic links
+reload required
+
+a2enmod — enable apache 2 modules
+a2dismod — disable apache 2 modules
+-create / removes symbolic links
+restart require
+
+service -run service script  /syntax service name action
+-start
+-stop
+-restart
+-reload(not always available)
+
+count of file types by extension
+uniq
+tr- text replace
+/t for tab
+
+bash t.sh pom dog
+
+fn and f4
+bash - gives nano access
+
+lamp-linux apache mysql php
+
+rwx -read write execute
+
+chown - change files owner and group group permissions allow user not listed to access file
+
+exim -open source, lightweight mail transfer agent(mta)
+
+phpmyadmin -free open source mysql client useful for debugging / write & perform queries manage databases & user
+
+#1/bin/bash
+chmod -modify permisson
+pwd current path
+ls -l longform list
+cd change directory
+.. parent folder
+cp copy
+mv move
+rm delete file
+rmdir delete
+mkdir make directory

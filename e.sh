@@ -1,3 +1,13 @@
-!#/bin/bash
+#!/bin/bash
+dir="$1"
+count=$(ls "$dir" | wc -l)
+echo File Count:  $count
 
-ls -l $1 | awk '{s += $5} END {print s/1024 "mb" }'
+test=$(ls -l "$dir" | awk '{s += $5} END {print s/1024}')
+echo Total of all Files: $test
+
+#declare -i $test
+#declare -i $count
+
+
+echo "$test/$count" | bc -l

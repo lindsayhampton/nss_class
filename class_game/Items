@@ -1,45 +1,65 @@
+
     # weapons
 
-    Arming sword = Strength + 1
-    Broadsword = Strength + 1
-    Claymore = Strength + 1
-    Falchion = Strength + 1
-    Katana = Strength + 1
-    Longsword = Strength + 1
-    Rapier = Strength + 1
-    Sabre = Strength + 2
-    Shortsword = Strength + 2
-    Ulfberht = Strength + 2
-    Zweihander = Strength + 2
-    Battle axe = Strength + 2
-    Club = Strength + 3
-    Flail = Strength + 3
-    Mace = Strength + 3
-    Flanged mace = Strength + 3
-    Pernach = Strength + 3
-    Shestopyor = Strength + 3
-    Maul = Strength + 4
-    Morning star = Strength + 4
-    Quarterstaff = Strength + 4
-    War hammer = Strength + 4
-    Bec de Corbin = Strength + 5
-    Horseman = Strength + 5
-    Bludgeon = Strength + 5
+var Arming_Sword = Arming_Sword()
+
+function Arming_Sword() {
+    Player_Strength = +1
+}
+
+var Broadsword = Broadsword()
+
+function Broadsword() {
+    Player_Strength = +1
+}
+
+var Claymore = Claymore()
+
+function Claymore() {
+    Player_Strength = + 1
+}
+
+var Falchion = Falchion()
+
+function Falchion() {
+    Player_Strength = + 1
+}
+
+var Katana = Katana()
+
+function Katana() {
+    Player_Strength = + 1
+}
+
+var Longsword = Strength + 1
+var Rapier = Strength + 1
+var Sabre = Strength + 2
+var Shortsword = Strength + 2
+var Club = Strength + 3
+var Flail = Strength + 3
+var Mace = Strength + 3
+var Pernach = Strength + 3
+var Shestopyor = Strength + 3
+var Maul = Strength + 4
+var Morning star = Strength + 4
+var Quarterstaff = Strength + 4
+var Horseman = Strength + 5
+var Bludgeon = Strength + 5
 
     # armor
 
-    Bronze_Helm = Dex + 1
-    Bronze_Vambrace = Dex + 1
-    Bronze_Gauntlet = Dex + 1
-    Bronze_Plate = Dex + 1
-    Bronze_Tasset = Dex + 1
-    Steal_Helm = Dex + 2
-    Steal_Vambrace = Dex + 2
-    Steal_Gauntlet = Dex + 2
-    Steal_Plate = Dex + 2
-    Steal_Tasset = Dex + 2
-    Gold_Helm = Dex + 3
-    Gold_Vambrace = Dex + 3
-    Gold_Gauntlet = Dex + 3
-    Gold_Plate = Dex + 3
-    Gold_Tasset = Dex + 3
+var Bronze_Helm = Dex + 1
+var Bronze_Vambrace = Dex + 1
+var Bronze_Gauntlet = Dex + 1
+var Bronze_Plate = Dex + 1
+var Bronze_Tasset = Dex + 1
+var Steal_Helm = Dex + 2
+var Steal_Vambrace = Dex + 2
+var Steal_Gauntlet = Dex + 2
+var Steal_Plate = Dex + 2
+var Steal_Tasset = Dex + 2
+var Gold_Helm = Dex + 3
+var Gold_Vambrace = Dex + 3
+var Gold_Gauntlet = Dex + 3
+var Gold_Plate = Dex + 3
+var Gold_Tasset = De + 3
